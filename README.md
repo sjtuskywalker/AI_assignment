@@ -1,4 +1,5 @@
 模型权重文件（交大云盘）https://jbox.sjtu.edu.cn/l/y1KyfT
+AIGC变换风格的val数据集 https://jbox.sjtu.edu.cn/l/e1eNl0
 
 贡献比例：
 陈维：接口类文件实现，训练模型（30%）
