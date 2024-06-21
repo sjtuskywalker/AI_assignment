@@ -9,7 +9,7 @@ from pytorch_lightning import LightningModule
 class ViolenceClass:
     def __init__(self):
         # 加载预训练模型
-        ckpt_path = "resnet18_pretrain_test-epoch=02-val_loss=0.03.ckpt"
+        ckpt_path = "aigc&gaussian.ckpt"
         self.model = ViolenceClassifier.load_from_checkpoint(ckpt_path).to('cuda:0')
     
     def classify(self, tensor_imgs):
