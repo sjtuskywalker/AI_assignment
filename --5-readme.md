@@ -6,7 +6,7 @@
 
 （1）from classify import ViolenceClass 
 
-（2）设置文件路径（此处默认data/val）
+（2）设置文件路径（此处默认data/val）ps：注意需要将模型权重文件放置在和classify，data同级目录下
 
 （3）将图片读入并转化为向量tensor_imgs
 
